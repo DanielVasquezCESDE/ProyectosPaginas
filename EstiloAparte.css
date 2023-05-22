@@ -1,0 +1,187 @@
+body {
+    background-image: rgb(208, 226, 208);
+}
+
+    .overlay a {
+        text-decoration: none;
+    }
+   body .mainlink {
+        text-decoration: none;
+   }
+    .elfondo {
+        background-color:#37a82662;
+
+    } 
+        .hit-the-floor {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 3.8rem;
+        font-weight: bold;
+        font-family: Helvetica;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+        }
+
+        .hit-the-floor small {
+            font-size: 1rem;
+            text-shadow: none;
+            text-shadow: 0 .25px 0 #ccc, 0 .5px 0 #c9c9c9, 0 .75px 0 #bbb, 0 1px 0 #b9b9b9, 0 1.25px 0 #aaa, 0 1.5px .25px rgba(0,0,0,.1), 0 0 1.25px rgba(0,0,0,.1), 0 .25px .75px rgba(0,0,0,.3), 0 .75px 1.25px rgba(0,0,0,.2), 0 1.25px 2.5px rgba(0,0,0,.25), 0 2.5px 2.5px rgba(0,0,0,.2), 0 5px 5px rgba(0,0,0,.15);
+        }
+        
+        .hit-the-floor {
+        text-align: center;
+        }
+
+        .menu {
+            font-size: large;
+        }
+
+
+        .clases {
+            background-color: #37a82662;
+        }
+
+        .clases:hover {
+            transform:scale(0.9);
+            cursor: pointer;
+        }
+
+        .redirigir {
+            text-decoration: none;
+        }
+
+        .quote {
+            display: flex;
+            align-items: center;
+        }
+
+        .bd-footer a {
+            text-decoration: none;
+        }
+
+        h4 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 45px;
+            line-height: 90%;
+        }
+
+        .tabla {
+            box-shadow: #aaa;
+        }
+
+        .botonS {
+        width: 100%;
+        display: inherit;
+        align-items: inherit;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        justify-content: inherit;
+        border-top: none!important;
+        }
+/*Instalaciones*/
+
+        .FondoG {
+                background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+                min-height: 100vh;
+                font: normal 16px sans-serif;
+                padding: 60px 0;
+        }
+        .container.gallery-container {
+            background-color: #fff;
+            color: #35373a;
+            min-height: 100vh;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+        }
+        
+        .gallery-container h1 {
+            text-align: center;
+            margin-top: 70px;
+            font-family: 'Droid Sans', sans-serif;
+            font-weight: bold;
+        }
+        
+        .gallery-container p.page-description {
+            text-align: center;
+            max-width: 800px;
+            margin: 25px auto;
+            color: #888;
+            font-size: 18px;
+        }
+        
+        .tz-gallery {
+            padding: 40px;
+        }
+        
+        .tz-gallery .lightbox img {
+            width: 100%;
+            margin-bottom: 30px;
+            transition: 0.2s ease-in-out;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+        }
+        
+        
+        .tz-gallery .lightbox img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        }
+        
+        .tz-gallery img {
+            border-radius: 4px;
+        }
+        
+        .baguetteBox-button {
+            background-color: transparent !important;
+        }
+        
+        
+        @media(max-width: 768px) {
+            body {
+                padding: 0;
+            }
+        
+            .container.gallery-container {
+                border-radius: 0;
+            }
+        }
+/*Lista de instalaciones*/
+
+/*** ESTILOS BOTÓN GROW SKEW REVERSE ***/
+ul {
+    list-style: none;
+}
+li .botoncito {
+    text-decoration: none;
+}
+.botoncito {
+    width:fit-content;
+    background: #fff; /* color de fondo */
+    color: #37a826e7; /* color de fuente */
+    padding: 16px 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .botoncito:hover {
+    color: #fff;/* color de fuente hover */
+    cursor: default;
+  }
+  .botoncito::after {
+    content: "";
+    background: #37a826e7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .botoncito:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(45deg) scale(1, 1);
+  }
